@@ -14,7 +14,7 @@ function MealsInfo() {
   const navigate = useNavigate()
 
   const handleDelete = () => {
-    fetch(`http://localhost:5000/meals/${id}`, {
+    fetch(`https://topiplusapp.herokuapp.com/meals/${id}`, {
       method: "DELETE"
     }).then(() => navigate("/"))
   }
