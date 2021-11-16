@@ -2,38 +2,33 @@
   max-width: 1200px;
 }
 
-.boxStyle {
-  background-color: #FFF;
-  border: 1px solid rgba(255, 255, 255, 0.568);
-  border-radius: 40px;
-  width: 75%;
-  margin: 30px auto;
-  padding: 20px;
-}
-
-
 .mealsMainInfo h2 {
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-
+  font-weight: 500;
   margin: 15px;
+}
+
+.mealsMainInfo h2:hover {
+  text-decoration: underline;
 }
 
 .mealsMainInfo span {
   color: rgb(197, 114, 5);
 
   font-size: 18px;
-  text-transform: capitalize;
   text-align: center;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 600;
 
   display: block;
 }
 
 .mealsInfoTags {
   text-align: center;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
   margin: 15px 0;
 
   color: #bbbbbb;
@@ -72,7 +67,14 @@
 
 
 .mealsInfoInstructions h3{
+  color: rgb(197, 114, 5);
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.mealsInfoInstructions h3:hover {
+  text-decoration: underline;
 }
 
 .mealsInfoInstructions  p{

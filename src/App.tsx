@@ -4,6 +4,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import MealsInfo from './components/MealsInfo/MealsInfo';
 import { NotFound } from './components/NotFound/NotFound';
+import CreateMeal from './components/CreateMeal/CreateMeal';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             <Route path="/" element={<Home/>}/>
 
             <Route path="/meals/:id" element={<MealsInfo/>}/>
+
+            <Route path="/create" element={<CreateMeal/>}/>
 
             <Route path="/meals/search/:searched" element={<Home/>}/>
 
