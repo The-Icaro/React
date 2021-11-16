@@ -35,10 +35,15 @@
   height: 20px;
 }
 
+.logoWrapper a {
+  display: none;
+} 
+
 @media screen and (max-width: 600px) {
   .navbarLinksWrapper {
     margin-left: 45px;
     height: 20px;
+    display: flex;
   }
   .navbarLinksWrapper a{
     display: none;
@@ -51,21 +56,11 @@
     margin-bottom: 10px;
     margin-left: 25px;
   }
-}
 
-
-/** Display Vertical */
-
-@media screen and (max-width: 600px) {
-  .navbarWrapperLinksResponsive {position: relative;}
-  .navbarWrapperResponsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbarWrapperLimksResponsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  .logoWrapper a {
+    display: inline;
+    margin-left: 10px;
   }
 }
+
+

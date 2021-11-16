@@ -19,9 +19,9 @@ model Meal {
   strMealThumb                  String
   strTags                       String
   strYoutube                    String  
-  strSource                     String
-  strImageSource                String
-  strCreativeCommonsConfirmed   String
+  strSource                     String?
+  strImageSource                String?
+  strCreativeCommonsConfirmed   String?
 
   objIngredientsAndMeasure IngredientsAndMeasure?
   
