@@ -12,7 +12,7 @@ function Home() {
     searched = ''
 
 
-  const { data , isLoading, errorLog } = useFetch('https://topiplusapp.herokuapp.com/meals?search=' + searched)
+  const { data , isLoading, errorLog } = useFetch('http://localhost:5000/meals?search=' + searched)
   const meals : any = data
 
   return (
