@@ -8,7 +8,7 @@ import YoutubePlayer from '../../utils/YoutubePlayer'
 function MealsInfo() {
 
   const { id } = useParams()
-  const { data, isLoading, errorLog } = useFetch(`http://localhost:5000/meals/${id}`)
+  const { data, isLoading, errorLog } = useFetch(`https://topiplusapp.herokuapp.com/meals/${id}`)
   const meal : any = data
 
   const navigate = useNavigate()
