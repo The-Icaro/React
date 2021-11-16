@@ -57,7 +57,7 @@ function CreateMeal() {
 
     const meal = handlePost(mealBasic, ingredients, measures)
     
-    fetch('http://localhost:5000/meals', {
+    fetch('https://topiplusapp.herokuapp.com/meals', {
       method: 'POST',
       headers: { "Content-type" : "application/json" },
       body: JSON.stringify(meal)
