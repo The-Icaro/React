@@ -1,0 +1,111 @@
+.mealsInfoWrapper {
+  max-width: 1200px;
+}
+
+.boxStyle {
+  background-color: #FFF;
+  border: 1px solid rgba(255, 255, 255, 0.568);
+  border-radius: 40px;
+  width: 75%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+
+.mealsMainInfo h2 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin: 15px;
+}
+
+.mealsMainInfo span {
+  color: rgb(197, 114, 5);
+
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+
+  display: block;
+}
+
+.mealsInfoTags {
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0;
+
+  color: #bbbbbb;
+}
+
+
+.mealsMainInfo img {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+
+.tableWrapper table {
+  width: 600px;
+  border-collapse: collapse;
+  margin: 25px auto;
+}
+
+.tableWrapper th, td {
+  padding: 5px;
+}
+
+.tableWrapper th {
+  text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 1px solid #111;
+}
+
+.tableWrapper tr:hover{
+  background-color: rgb(207, 160, 98);
+}
+
+
+.mealsInfoInstructions h3{
+  text-align: center;
+}
+
+.mealsInfoInstructions  p{
+  line-height: 32px;
+  margin: 15px auto;
+  width: 70%;
+}
+
+.mealsInfoWrapper button {
+  display: block;
+  margin: 30px auto;
+  font-size: 15px;
+  color: #FFF;
+  background-color: rgb(197, 114, 5);
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.mealsInfoYoutube h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.youtubePlayerWrapper {
+  margin: 20px auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .tableWrapper table {
+    width: 40%;
+  }
+}

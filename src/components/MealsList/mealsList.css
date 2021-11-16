@@ -1,0 +1,49 @@
+.mealsListWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mealsPreviewWrapper {
+  height: 300px;
+  width: 320px;
+
+  margin: 20px 0;
+
+  background-color: #FFF;
+  border-bottom: 1px solid #fafafa;
+}
+
+.mealsPreviewWrapper:hover {
+  transform: translate(-2px,-2px);
+  box-shadow: 5px 5px 0 #FEC445;
+}
+
+.mealsPreviewWrapper h2 {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.mealsPreviewWrapper h2:hover{
+  text-decoration: underline;
+}
+
+.mealsPreviewWrapper a{
+  color: rgb(197, 114, 5);
+  text-decoration: none;
+}
+
+.mealsPreviewWrapper a span{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.mealsPreviewWrapper img{
+  height: 230px;
+  width: 320px;
+}
